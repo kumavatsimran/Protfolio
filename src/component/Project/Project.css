@@ -1,0 +1,91 @@
+
+  /* project */
+ 
+#projects{
+  background:linear-gradient(to right, #0d0d0d, #1a1a1a);
+}
+.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .card-image {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card-img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Hover Effect on Card */
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card:hover .card-img {
+    transform: scale(1.1);
+  }
+  /* Hover Content */
+  .card-hover {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: bottom 0.5s ease-in-out;
+    padding: 15px;
+  }
+  
+  .card-hover h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  .card-hover p {
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 0 10px;
+  }
+  .card:hover .card-hover {
+    bottom: 0;
+  }
+  
+    .btn3 {
+      background: #0f2027;
+      color: #fff;
+      padding: 5px 5px;
+      border-radius: 20px;
+      font-size: 1rem;
+      margin-top: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      text-decoration: none;
+    }
+    .btn3:hover {
+      transform: scale(1.1);
+      background: #0ef;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    
+    .footer-link:hover {
+      color: #0d6efd; /* Bootstrap primary blue */
+    }
+    
+    .footer p {
+      margin-bottom: 0.2rem;
+    }
+    

@@ -1,0 +1,67 @@
+/* main */
+#home{
+  background: linear-gradient(to right, #0d0d0d, #1a1a1a);
+}
+.girle{
+    object-fit: cover;
+    width: 300px;
+    height: 350PX;
+    transition: all linear 1s;
+    box-shadow: 
+    0 4px 15px rgba(0, 255, 204, 0.3);
+  }
+  .icon{
+    color: #00ccaa;
+  }
+  .btn2 {
+    background: #0f2027;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-color: #00ccaa;
+    transition: transform 0.3s ease;
+  }
+  .btn2:hover {
+    transform: scale(1.1);
+    background: #00ccaa;
+    color: wheat;
+   
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+ 
+  .name{
+    color:#00ccaa ;
+  }
+  
+  #home h4 span {
+    display: inline-block;
+    animation: bounceText 0.5s infinite alternate;
+  }
+  @keyframes bounceText {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-5px);
+    }
+  }
+  /* Fade-In Transition for .detail */
+.detail {
+  opacity: 0; /* Start invisible */
+  transform: translateY(20px); /* Slightly move down */
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+/* Keyframe Animation for Fade-In */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
