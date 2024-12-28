@@ -15,6 +15,14 @@ function Project() {
           },
           {
             id: 2,
+            name: "E-commer",
+            img: "/assete/image/Screenshot (36).png",
+            description: "This E-Commerce Website is a dynamic, user-friendly shopping platform built with HTML, CSS, and JavaScript. The website offers a seamless shopping experience with features such as an Add to Cart button, real-time Subtotal calculations for each product, and a Final Total for all selected items.",
+            git:"https://github.com/kumavatsimran/Product-Ecommerce.git",
+            link:"https://product-ecommerce-c59n.onrender.com"
+          },
+          {
+            id: 3,
             name: "Login auth",
             img: "/assete/image/auth.jpeg",
             description: "This project is a React-based authentication system integrated with Firebase Authentication and includes CRUD operations for managing user data. ",
@@ -22,7 +30,7 @@ function Project() {
             link:"https://firebace-auth.onrender.com"
           },
         {
-          id: 3,
+          id: 4,
           name: "Add to cart",
           img: "/assete/image/Screenshot (23).png",
           description: " A React and Axios-based product listing app featuring search, sorting, and an Add to Cart functionality. Products are displayed in a dynamic table with images, prices, and actions, fetching data via Axios from a backend or JSON server. The UI updates seamlessly without page reloads.",
@@ -30,7 +38,7 @@ function Project() {
           link:"axioscrud-react-l1kv.onrender.com"
         },
         {
-          id: 6,
+          id: 5,
           name: "Feedback-form ",
           img: "/assete/image/Screenshot (31).png",
           description: "This React-based feedback form enables users to submit their comments, with real-time validation,rate and dynamic updates enhancing the user experience.",
@@ -46,7 +54,7 @@ function Project() {
           link:"https://blog-passport-qv72.onrender.com"
         },
         {
-          id: 4,
+          id: 7,
           name: "Movie webstite",
           img: "/assete/image/Screenshot (26).png",
           description: "This project is a Node.js-based movie website designed for browsing, adding, editing, and deleting movie entries, showcasing a modern and user-friendly interface.",
@@ -54,14 +62,15 @@ function Project() {
           link:"https://movie-os5w.onrender.com/"
         },
         {
-          id: 5,
+          id: 8,
           name: "Weather ",
           img: "/assete/image/Screenshot (33).png",
           description: "This weather app lets users select a country, state, and city to fetch real-time weather data using JavaScript and the fetch API. It displays the temperature, weather conditions, and humidity based on the chosen location.",
-          git:"https://github.com/kumavatsimran/wether-web.git"
+          git:"https://github.com/kumavatsimran/wether-web.git",
+          link:"https://wether-web.onrender.com"
         },
         {
-          id: 6,
+          id: 9,
           name: "Bank ",
           img: "/assete/image/Screenshot (32).png",
           description: "This JavaScript bank system lets users deposit money and manage credit limits, updating their account balance and available credit.",
