@@ -3,7 +3,7 @@
   background: linear-gradient(to right, #0d0d0d, #1a1a1a);
 }
 .girle{
-    object-fit: cover;
+    object-fit:cover;
     width: 300px;
     height: 350PX;
     transition: all linear 1s;

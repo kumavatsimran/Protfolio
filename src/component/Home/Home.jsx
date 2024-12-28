@@ -25,7 +25,7 @@ function Home() {
       </div>
       <div className="col-md-6 mt-5   p-5">
         <div className="  rounded-circle  ">
-          <img src="/assete/image/sim1.jpeg" className="girle  border  rounded-circle d-flex justify-content-center " /> 
+          <img src="/assete/image/5.jpeg" className="girle  border  rounded-circle d-flex justify-content-center " /> 
         </div>
         {/* <div className="position-relative">
           <img src="asset/image/effect-3.svg" className=" dot position-absolute w-15  top-0 start-100 translate-middle" />
