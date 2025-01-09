@@ -2,8 +2,8 @@ import React from 'react';
 import '../Skill/skill.css';
 
 const frontendSkills = ['React.js', 'HTML5', 'CSS3', 'JavaScript', 'Bootstrap'];
-const backendSkills = ['Node.js', 'Express.js', 'SQLite', 'MongoDB'];
-const tools = ['GitHub', 'VS Code', 'Webpack', 'Postman'];
+const backendSkills = ['Node.js', 'Express.js',  'MongoDB'];
+const tools = ['GitHub', 'VS Code', 'render', 'Postman','firebase'];
 
 const Skill= () => {
   return (
